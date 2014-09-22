@@ -1,5 +1,5 @@
 cc = g++
-OBJ: craps.o
+OBJ= craps.o
 
 craps: $(OBJ)
 	$(cc) $(OBJ) -o $@
