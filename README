@@ -1,1 +1,5 @@
-This is my readme file
+Typing make should compile and link the program, then just follow the instructions to play the game.
+
+you start with 50 tokens, when you bet tokens and win you win 2 times your bet (2 * bet)
+
+when you lose a bet you lose the amount you bet (1 * bet)
