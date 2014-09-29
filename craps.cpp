@@ -1,3 +1,5 @@
+/*Craps game for lab 3 In CS2010 by Frankie Gauthier 4213091*/
+
 #include <iostream>
 #include <cstdlib>
 #include <time.h>
@@ -26,7 +28,7 @@ int roll(){
 }
 
 int die(){
-			// get clock seed value
+					// get clock seed value
 	return (rand() % 6 + 1);	// roll a random number between 1 and 6
 }
 
@@ -103,7 +105,7 @@ int main(){
 	{
 		
 		bet();
-		srand(time(NULL)); // get seed value for rand
+		srand(time(NULL)); 				// get seed value for rand
 		playGame(); 					// call the playgame function
 		cout << " Play again? (y/n): ";			// ask user to play again
 		cin >> ans;					// store users answer in ans
